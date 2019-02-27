@@ -1,16 +1,29 @@
+#Update all the sections by editing the data.yml file inside _data folder.
 
+# Site Settings
 title: Homepage of Tomáš Kalvoda
 url: 'https://kalvoda.org'
-baseurl: '' #change it according to your repository name
+baseurl: '/online-cv' #change it according to your repository name
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# Profile information
-name: Tomáš Kalvoda
-tagline: FIT ČVUT
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+# Tracker
+analytics: UA-41031035-2
 
-# sidebar links
-email: tomas.kalvoda@fit.cvut.cz
-phone: +420 22435 9875
-website: kalvoda.org #do not add http://
-github: kalvotom
-twitter: '@kalvotom'
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false

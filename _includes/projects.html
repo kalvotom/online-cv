@@ -1,45 +1,34 @@
+{% assign projects = site.data.data.projects %}
+{% if projects %}
 <section class="section projects-section">
-  <h2 class="section-title"><i class="fa fa-archive"></i>Supervised students</h2>
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ projects.title }}
+  </h2>
+
+  {% if projects.intro %}
   <div class="intro">
-    <p>List of supervised students and their topics (in Czech).</p>
+      <p>{{ projects.intro }}</p>
   </div><!--//intro-->
-   <div class="item">
-    <span class="project-title"><a href="#">Ondřej Naňka</a></span> - <span class="project-tagline">Modul pro symbolické testování odpovědí v matematických kvízech, 2018.</span>      
-  </div><!--//item-->
-   <div class="item">
-    <span class="project-title"><a href="#">Martin Kuzma</a></span> - <span class="project-tagline">Julia rozhraní pro knihovnu Triangle, 2017.</span>      
-  </div><!--//item-->
+  {% endif %}
+
+  {% for project in projects.assignments %}
     <div class="item">
-    <span class="project-title"><a href="#">Jan Koza</a></span> - <span class="project-tagline">Vizualizace implicitně zadaných ploch v SageMath, 2017.</span>      
-  </div><!--//item-->
-   <div class="item">
-    <span class="project-title"><a href="#">Filip Chalupa</a></span> - <span class="project-tagline">Kolaborativní tvorba LaTeX dokumentů s podporou Gitu, 2016.</span>      
-  </div><!--//item-->
-   <div class="item">
-    <span class="project-title"><a href="#">Jakub Tomanek</a></span> - <span class="project-tagline">Algoritmy pro výpočet maticové exponenciály v Sage, 2015.</span>      
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Ivan Kutasov</a></span> - <span class="project-tagline">Řešení obyčejných diferenciálních rovnic v SAGE, 2015</span>
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Jakub Waller</a></span> - <span class="project-tagline">Simulace kvantové části ve zkrouceném 2D vlnovodu, 2014</span>
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Tibor Szolár</a></span> - <span class="project-tagline">Systém pro podporu plánování a organizace času na fakultě, 2013.</span>
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Lukáš Prchal</a></span> - <span class="project-tagline">Webový informační systém pro správu přihlášek na kurzy, 2013.</span>
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Vladimír Kotýnek</a></span> - <span class="project-tagline">Interaktivní webová demonstrace Fermiho akcelerace, 2013.</span>
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Lukáš Kočí</a></span> - <span class="project-tagline">Webový informační systém pro podporu administrace pracovních výkazů projektů ESF, 2013.</span>
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Tomáš Frank</a></span> - <span class="project-tagline">Analýza zvukových signálů a rozpoznávání povelů, 2013.</span>
-  </div><!--//item-->
-  <div class="item">
-    <span class="project-title"><a href="#">Josef Donoval</a></span> - <span class="project-tagline">Numerické simulace kvantových systémů, 2012.</span>
-  </div><!--//item-->
+
+      <span class="project-title">
+        <a href="{{ project.link }}">{{ project.title }}</a>
+      </span>
+
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
 </section><!--//section-->
+{% endif %}

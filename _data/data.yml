@@ -1,0 +1,191 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Tomáš Kalvoda
+    tagline: FIT ČVUT
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: tomas.kalvoda@fit.cvut.cz
+    phone: +420 22435 9875
+    website: kalvoda.org #do not add http://
+    linkedin:
+    github: kalvotom
+    gitlab:
+    bitbucket:
+    twitter: '@kalvotom'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom:
+        level:
+
+    interests:
+      - item: Time-dependent Quantum Systems
+        link:
+
+      - item: Models with Magnetic Field
+        link:
+
+      - item: Scientific Open Source Software
+        link:
+
+career-profile:
+    title: About me
+    summary: |
+      I am an Assistant Professor at [Department of Applied Mathematics](http://www.fit.cvut.cz/en/faculty/structure/departmets/kam)
+      of the [Faculty of Information Technology](http://www.fit.cvut.cz) at [Czech Technical University in Prague](https://www.cvut.cz).
+
+
+projects:
+    title: Supervised students
+    intro: >
+      List of supervised students and their topics (in Czech).
+
+    assignments:
+      - title: Ondřej Naňka
+        link: "#"
+        tagline: "Modul pro symbolické testování odpovědí v matematických kvízech, 2018."
+
+      - title: Martin Kuzma
+        link: "#"
+        tagline: "Julia rozhraní pro knihovnu Triangle, 2017."
+
+      - title: Jan Koza
+        link: "#"
+        tagline: "Vizualizace implicitně zadaných ploch v SageMath, 2017."
+
+      - title: Filip Chalupa
+        link: "#"
+        tagline: "Kolaborativní tvorba LaTeX dokumentů s podporou Gitu, 2016."
+
+      - title: Jakub Tomanek
+        link: "#"
+        tagline: "Algoritmy pro výpočet maticové exponenciály v Sage, 2015."
+
+      - title: Ivan Kutasov
+        link: "#"
+        tagline: "Řešení obyčejných diferenciálních rovnic v SAGE, 2015"
+
+      - title: Jakub Waller
+        link: "#"
+        tagline: "Simulace kvantové části ve zkrouceném 2D vlnovodu, 2014"
+
+      - title: Tibor Szolár
+        link: "#"
+        tagline: "Systém pro podporu plánování a organizace času na fakultě, 2013."
+
+      - title: Lukáš Prchal
+        link: "#"
+        tagline: "Webový informační systém pro správu přihlášek na kurzy, 2013."
+
+      - title: Vladimír Kotýnek
+        link: "#"
+        tagline: "Interaktivní webová demonstrace Fermiho akcelerace, 2013."
+
+      - title: Lukáš Kočí
+        link: "#"
+        tagline: "Webový informační systém pro podporu administrace pracovních výkazů projektů ESF, 2013."
+
+      - title: Tomáš Frank
+        link: "#"
+        tagline: "Analýza zvukových signálů a rozpoznávání povelů, 2013."
+      
+      - title: Josef Donoval
+        link: "#"
+        tagline: "Numerické simulace kvantových systémů, 2012."  
+
+publications:
+    title: Publications
+    intro: |
+      List of my publications.
+
+    papers:
+      - title: A geometric Iwatsuka type effect in quantum layers, accepted in Journal of Mathematical Physics
+        authors: Exner P., Kalvoda T., Tušek M.
+        journal: Addison-Wesley, 1968
+        doi: http://dx.doi.org/10.1063/1.5030517
+
+      - title: A family of explicitly diagonalizable weighted Hankel matrices generalizing the Hilbert matrix
+        authors: Kalvoda T., Šťovíček P.
+        journal: Linear and Multilinear Algebra 64 (2016) 870-884
+        doi: http://dx.doi.org/10.1080/03081087.2015.1064348
+
+      - title: A charged particle in a homogeneous magnetic field accelerated by a time-periodic Aharonov-Bohm flux
+        authors: Kalvoda T., Šťovíček P.
+        journal: Ann. Phys. 326 (2011) 2702-2716
+        doi: http://dx.doi.org/10.1016/j.aop.2011.06.007
+
+      - title: Resonant cyclotron acceleration of particles by a time periodic singular flux tube
+        authors: Asch J., Kalvoda T., Šťovíček P.
+        journal: SIAM J. Appl. Math. 71 (2011) 829-853
+        doi: http://dx.doi.org/10.1137/100809337
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+#
+# !!! I do not use this at the moment !!!
+#
+
+education:
+    - degree:
+      university:
+      time:
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: 
+      time: 
+      company: 
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
