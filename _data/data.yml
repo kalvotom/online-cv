@@ -51,9 +51,21 @@ projects:
       List of supervised students and their topics (in Czech).
 
     assignments:
+      - title: Vladislav Stankov
+        link: "#"
+        tagline: "Optimalizační metody ve znalostním inženýrství, 2019."
+
       - title: Ondřej Naňka
         link: "#"
         tagline: "Modul pro symbolické testování odpovědí v matematických kvízech, 2018."
+
+      - title: Petr Nevyhoštěný
+        link: "#"
+        tagline: "Neřízená segmentace písní v audiozáznamu koncertu, 2018."
+
+      - title: Tung Anh Vu
+        link: "#"
+        tagline: "Metoda pohyblivých vážených nejmenších čtverců v Julia, 2018."
 
       - title: Martin Kuzma
         link: "#"
@@ -102,6 +114,17 @@ projects:
       - title: Josef Donoval
         link: "#"
         tagline: "Numerické simulace kvantových systémů, 2012."  
+
+
+preprints:
+    title: Preprints
+    intro: |
+      List of my preprints.
+
+    papers:
+      - title: Effective quantum dynamics on the Möbius strip
+        authors: Kalvoda T., Krejčiřík D., Zahradová K.
+        arxiv: https://arxiv.org/abs/1912.05365
 
 publications:
     title: Publications
