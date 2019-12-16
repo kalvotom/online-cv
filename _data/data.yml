@@ -118,8 +118,7 @@ projects:
 
 preprints:
     title: Preprints
-    intro: |
-      List of my preprints.
+    intro: List of my preprints.
 
     papers:
       - title: Effective quantum dynamics on the Möbius strip
