@@ -1,0 +1,28 @@
+{% assign preprints = site.data.data.preprints %}
+{% if preprints %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ preprints.title }}
+  </h2>
+
+  {% if preprints.intro %}
+  <div class="intro">
+    {{ preprints.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for preprint in preprints.papers %}
+  <div class="item">
+    <div class="publication-authors">{{ preprint.authors }}</div>
+    <div class="publication-title">{{ preprint.title }}</div>
+    <div class="publication-arxiv"><a href="{{ preprint.arxiv }}">arxiv</a></div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
