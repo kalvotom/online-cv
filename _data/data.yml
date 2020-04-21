@@ -121,9 +121,9 @@ preprints:
     intro: List of my preprints.
 
     papers:
-      - title: Effective quantum dynamics on the Möbius strip
-        authors: Kalvoda T., Krejčiřík D., Zahradová K.
-        arxiv: https://arxiv.org/abs/1912.05365
+      - title: New family of symmetric orthogonal polynomials and a solvable model of a kinetic spin chain
+        authors: Kalvoda T., Štampach F.
+        arxiv: https://arxiv.org/abs/2004.08679
 
 publications:
     title: Publications
@@ -131,6 +131,11 @@ publications:
       List of my publications.
 
     papers:
+      - title: Effective quantum dynamics on the Möbius strip
+        authors: Kalvoda T., Krejčiřík D., Zahradová K.
+        journal: 'accepted in Journal of Physics A: Mathematical and Theoretical'
+        doi: https://doi.org/10.1088/1751-8121/ab8b3a
+
       - title: A geometric Iwatsuka type effect in quantum layers, accepted in Journal of Mathematical Physics
         authors: Exner P., Kalvoda T., Tušek M.
         journal: Journal of Mathematical Physics 59, 042105 (2018)
