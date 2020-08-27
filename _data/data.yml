@@ -133,7 +133,7 @@ publications:
     papers:
       - title: Effective quantum dynamics on the Möbius strip
         authors: Kalvoda T., Krejčiřík D., Zahradová K.
-        journal: Journal of Physics A: Mathematical and Theoretical 53 (2020)
+        journal: 'Journal of Physics A: Mathematical and Theoretical 53 (2020)'
         doi: https://doi.org/10.1088/1751-8121/ab8b3a
 
       - title: A geometric Iwatsuka type effect in quantum layers, accepted in Journal of Mathematical Physics
