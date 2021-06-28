@@ -1,0 +1,14 @@
+###
+#
+# Build site.
+#
+
+build:
+  image: jekyll/jekyll
+  script:
+    - jekyll build -d build
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 day
+
