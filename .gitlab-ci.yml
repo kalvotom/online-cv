@@ -6,6 +6,7 @@
 build:
   image: ruby:slim
   script:
+    - apt-get install build-essentials
     - gem install jekyll
     - jekyll build -d public
   artifacts:
