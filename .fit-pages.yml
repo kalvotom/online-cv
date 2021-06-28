@@ -1,0 +1,9 @@
+# Allow anyone to access site from the master branch, require authentication to
+# access any other branches (e.g. /@dev/index.html).
+access:
+  master:
+    /:
+      allow: [ANONYMOUS]
+  '*':
+    /:
+      allow: [AUTHENTICATED]

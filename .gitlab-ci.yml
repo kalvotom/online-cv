@@ -10,6 +10,7 @@ build:
     - apt-get install build-essential -y
     - gem install jekyll
     - jekyll build -d public
+    - cp .fit-pages.yml public/
   artifacts:
     paths:
       - public
