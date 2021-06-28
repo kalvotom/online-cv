@@ -4,9 +4,9 @@
 #
 
 build:
-  image: jekyll/jekyll
+  image: ruby:slim
   script:
-    - mkdir .jekyll-cache public
+    - gem install jekyll
     - jekyll build -d public
   artifacts:
     paths:
