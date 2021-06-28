@@ -6,7 +6,8 @@
 build:
   image: jekyll/jekyll
   script:
-    - jekyll build -d build
+    - mkdir .jekyll-cache public
+    - jekyll build -d public
   artifacts:
     paths:
       - public
